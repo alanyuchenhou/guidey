@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+    Copyright (c) 2015-2017 TomTom N.V. All rights reserved.
+
+    This software is the proprietary copyright of TomTom N.V. and its subsidiaries and may be used
+    for internal evaluation purposes or commercial use strictly subject to separate licensee
+    agreement between you and TomTom. If you are the licensee, you are only permitted to use
+    this Software in accordance with the terms of your license agreement. If you are not the
+    licensee then you are not authorised to use this software in any manner and should
+    immediately return it to TomTom N.V.
+
+-->
+
+<resources>
+    <string name="app_name">Maps SDK Examples</string>
+
+    <string name="hello">Hello World, LogTool!</string>
+
+    <string name="title_activity_main">Maps SDK Examples</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="launcher_icon">launcher icon</string>
+
+    <string name="menu_navigation">TURN BY TURN NAVIGATION</string>
+    <string name="start_sample_simulation">Sample simulation</string>
+    <string name="route_types">Route types</string>
+    <string name="route_avoids">Route avoids</string>
+    <string name="route_waypoints">Route with waypoints</string>
+    <string name="route_alternatives">Alternative routes</string>
+    <string name="tomtom_logo">Tomtom logo</string>
+    <string name="travel_mode">Travel modes</string>
+
+    <string name="menu_shapes_polygon">Polygon</string>
+    <string name="menu_shapes_circle">Circle</string>
+    <string name="menu_shapes_polyline">Polyline</string>
+
+    <string name="menu_markers_balloon_simple">Simple</string>
+    <string name="menu_markers_balloon_detailed">Detailed</string>
+    <string name="menu_markers_balloon_custom">Custom</string>
+
+    <string name="menu_markers_simple">Simple</string>
+    <string name="menu_markers_decal">Decal</string>
+    <string name="menu_markers_custom_view">Custom View</string>
+
+    <string name="menu_markers_custom">Markers</string>
+    <string name="menu_markers_custom_balloons">Balloons</string>
+    <string name="menu_custom_shapes">Shapes</string>
+
+    <string name="btn_text_fastest">Fastest</string>
+    <string name="btn_text_shortest">Shortest</string>
+    <string name="btn_text_easiest">Easiest</string>
+
+    <string name="btn_text_add_waypoints">Add waypoints</string>
+    <string name="btn_text_no_waypoints">No waypoints</string>
+
+    <string name="btn_text_avoid_tolls">Toll roads</string>
+    <string name="btn_text_avoid_ferries">Ferries</string>
+    <string name="btn_text_avoid_motorways">Motorways</string>
+
+    <string name="btn_text_travel_mode_pedestrian">Pedestrian</string>
+    <string name="btn_text_travel_mode_car">Car</string>
+    <string name="btn_text_travel_mode_truck">Truck</string>
+
+    <string name="btn_text_departure_at">Departure at</string>
+    <string name="btn_text_arrival_at">Arrival at</string>
+
+    <string name="menu_map_layers">MAP DISPLAY</string>
+    <string name="submenu_traffic_layer">Traffic layers</string>
+    <string name="submenu_map_tiles_layer">Map layers</string>
+    <string name="submenu_my_location_layer">My Location</string>
+
+    <string name="traffic_incidents">Incidents</string>
+    <string name="traffic_flow">Flow</string>
+    <string name="traffic_off_btn">No traffic</string>
+
+    <string name="map_tiles_normal">Basic</string>
+    <string name="map_tiles_hybrid">Hybrid</string>
+    <string name="map_tiles_satellite">Satellite</string>
+
+    <string name="map_types_vector">Vector</string>
+    <string name="map_types_raster">Raster</string>
+    <string name="map_types_mixed">Vector/Raster</string>
+
+    <string name="my_location_on">Chevron on</string>
+    <string name="my_location_off">Chevron off</string>
+
+
+    <string name="search_btn_text">Go</string>
+    <string name="add_waypoint_btn_text">Add waypoint</string>
+    <string name="hint_origin">Origin</string>
+    <string name="hint_destination">Destination</string>
+    <string name="search_text">Search</string>
+    <string name="custom_routing">Custom simulation</string>
+    <string name="menu_map_manipulation">MAP MANIPULATION</string>
+    <string name="map_mode">Map perspective</string>
+    <string name="map_2d">2D mode</string>
+    <string name="map_3d">3D mode</string>
+    <string name="menu_map_display">Map display</string>
+    <string name="menu_events">Map events</string>
+    <string name="menu_events_on_map_click">Single Press</string>
+    <string name="menu_events_on_map_long_click">Long Press</string>
+    <string name="menu_events_on_map_panning">Panning</string>
+
+    <string name="map_center_amsterdam">Amsterdam</string>
+    <string name="map_center_berlin">Berlin</string>
+    <string name="map_center_london">London</string>
+    <string name="map_center_gps">GPS</string>
+
+    <string name="travel_mode_pedestrian_text">Pedestrian</string>
+    <string name="travel_mode_carpool_text">Carpool</string>
+    <string name="travel_mode_commercial_text">Commercial</string>
+    <string name="travel_mode_car_text">Car</string>
+    <string name="origin_or_destination_not_specified_error_message">Origin or destination not specified</string>
+
+    <string name="amsterdam_city_name">Amsterdam</string>
+    <string name="london_city_name">London</string>
+    <string name="rotterdam_city_name">Rotterdam</string>
+    <string name="berlin_city_name">Berlin</string>
+
+    <string name="amsterdam_to_rotterdam_desc">Amsterdam to Rotterdam</string>
+    <string name="amsterdam_to_berlin_desc">Amsterdam to Berlin</string>
+    <string name="amsterdam_to_oslo_desc">Amsterdam to Oslo</string>
+    <string name="rotterdam_destination_address">Bloklandstraat 86B, 3036 TN Rotterdam</string>
+    <string name="origin_or_destination_not_specified_warning">Origin or destination not specified</string>
+
+    <string name="address_search">Address search</string>
+    <string name="category_search">Category search</string>
+    <string name="fuzzy_search">Max fuzziness parameters</string>
+    <string name="fuzzy_search_description">It enables smart search in case of typos in query</string>
+    <string name="language_selector_search">Language parameter</string>
+    <string name="address_search_description">Search for address or POI</string>
+    <string name="category_search_description">Search for POIs in one of categories</string>
+    <string name="type_ahead_search">Typeahead parameter</string>
+    <string name="type_ahead_search_description">Enables typeahead suggestions</string>
+    <string name="near_me_search">Near me</string>
+    <string name="global_search">Global</string>
+    <string name="search">SEARCH</string>
+    <string name="parking">Parking</string>
+    <string name="gas">Gas</string>
+    <string name="atm">ATM</string>
+    <string name="auto_zoom_on_label">Auto-zoom on</string>
+    <string name="auto_zoom_off_label">Auto-zoom off</string>
+    <string name="speed_dependant_zoom_label">Speed dependent zoom</string>
+    <string name="search_activity_hint">Search</string>
+    <string name="search_failed_toast">Search failed&#8230;</string>
+    <string name="search_distance_calculating">Calculating&#8230;</string>
+
+    <string name="custom_simulation_wrong_data">Both origin and destination are required to run custom simulation!</string>
+    <string name="btn_text_eco">Eco</string>
+    <string name="berlin_amsterdam_route_title">Berlin - Amsterdam</string>
+    <string name="menu_route_planner">ROUTING</string>
+    <string name="fuzzy_max_first_label">MAX 1</string>
+    <string name="fuzzy_max_second_label">MAX 2</string>
+    <string name="fuzzy_max_third_label">MAX 3</string>
+
+    <string name="reverse_geocoding">Reverse geocoding</string>
+    <string name="reverse_geocoding_error">Response failed</string>
+    <string name="reverse_geocoding_no_results">No revgeo data</string>
+    <string name="reverse_geocoding_fetching">Fetching revgeo data</string>
+
+    <string name="other">Other</string>
+    <string name="balloon_tomtom_hq">TomTom HQ</string>
+    <string name="balloon_default_text">Welcome to TomTom</string>
+
+    <string name="map_compass_and_current_location">Compass and current location</string>
+    <string name="map_compass_and_current_location_title">Compass and current location</string>
+    <string name="map_compass_and_current_location_default">Default</string>
+    <string name="map_compass_and_current_location_hide">Hide</string>
+    <string name="map_compass_and_current_location_custom">Custom</string>
+    <string name="choose_module">Choose module</string>
+    <string name="dialog_routing_in_progress_msg">Routing in progress...</string>
+
+    <string name="btn_text_initial_order">Initial order</string>
+    <string name="btn_text_best_order">Best order</string>
+    <string name="btn_text_clear">No waypoints</string>
+    <string name="label_arrival_time">Arrival time:</string>
+    <string name="label_departure_time">Departure time:</string>
+    <string name="msg_error_date_in_past">The departure and arrival can not be in the past.</string>
+    <string name="msg_error_general_route_processing">An error occurred during the route planning processing.</string>
+
+    <string name="btn_text_one">1</string>
+    <string name="btn_text_three">3</string>
+    <string name="btn_text_five">5</string>
+
+    <string name="distance_km">%1$d km</string>
+    <string name="distance_m">%1$d m</string>
+    <string name="long_press_waypoint">Long press to add waypoint</string>
+    <string name="no_long_press_waypoint">No possibility to add waypoint</string>
+    <string name="license_header_text"><![CDATA[This Maps SDK Examples app is provided by TomTom and subject to TomToms privacy policy at <a href="https://tomtom.com/privacy">https://tomtom.com/privacy</a>. </br></br>Developers using TomTom SDKs and APIs in their apps similarly bear responsibility to adhere to applicable privacy laws. </br></br>These Maps SDK Examples are provided as-is and shall be used internally, and for evaluation purposes only. Any other use is strictly prohibited.]]></string>
+</resources>
