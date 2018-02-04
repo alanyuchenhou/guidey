@@ -8,4 +8,70 @@
     tools:context="com.guidey.app1.guidey.InfoActivity"
     tools:showIn="@layout/activity_info">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="326dp"
+        android:layout_height="78dp"
+        android:text="Lincoln Boulevard, near Doyle Drive and Fort Point, San Francisco, CA 94129"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suggested Duration: < 1 hour"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="298dp"
+        android:layout_height="137dp"
+        android:text="The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Golden Gate Bridge "
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="330dp"
+        android:layout_height="64dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:text="return"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="176dp"
+        android:layout_height="34dp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="how busy it will be on that day "
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="412dp" />
+
 </android.support.constraint.ConstraintLayout>
