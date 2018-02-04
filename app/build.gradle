@@ -4,11 +4,12 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.guidey.app1.guidey"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -22,26 +23,28 @@ android {
     }
 }
 
+
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
-
     //library required to display map
-    compile("com.tomtom.online:sdk-maps:2.+@aar"){
+    compile("com.tomtom.online:sdk-maps:2.+@aar") {
         transitive = true;
     }
 
     //library required for search
-    compile("com.tomtom.online:sdk-search:2.+@aar"){
+    compile("com.tomtom.online:sdk-search:2.+@aar") {
         transitive = true;
     }
 
     //library required for routing
-    compile("com.tomtom.online:sdk-routing:2.+@aar"){
+    compile("com.tomtom.online:sdk-routing:2.+@aar") {
         transitive = true;
     }
 }

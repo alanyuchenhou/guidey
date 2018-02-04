@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Guidey</string>
+
+    <string name="app_label">Search</string>
+    //searchstrings
+    <string name="search_title">Search</string>
+    <string name="search_hint">Enter text to search</string>
+    <string name="title_activity_list_view">ListView</string>
+    <string name="hello_world">\"Hello World\"</string>
 </resources>
